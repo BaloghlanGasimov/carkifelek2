@@ -1,0 +1,119 @@
+body {
+  background: url("img/photo-1511268011861-691ed210aae8.avif");
+  background-size: cover;
+  position: relative;
+}
+body .btn {
+  width: 140px;
+  height: 40px;
+  background-color: rgb(30, 158, 152);
+  position: absolute;
+  bottom: 100px;
+  left: 20%;
+  z-index: 1;
+  border-radius: 15px;
+}
+body .btn p {
+  color: white;
+}
+body .btn:hover {
+  background-color: rgb(255, 255, 34);
+}
+body audio {
+  position: absolute;
+  top: 0;
+}
+body .img {
+  position: absolute;
+  width: 80%;
+  height: 0;
+  z-index: 11;
+  top: 20px;
+  left: 20px;
+  margin-bottom: 30px;
+  filter: drop-shadow(0 0 0.75rem rgb(191, 255, 29));
+  opacity: 0;
+}
+body .box {
+  height: 97vh;
+}
+body .box .arrow {
+  background-color: rgb(37, 87, 12);
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 50%);
+          clip-path: polygon(0 0, 0% 100%, 100% 50%);
+  width: 3%;
+  height: 3%;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+body .box .wheel {
+  margin-top: 40px;
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  border: 5px solid rgb(37, 87, 12);
+  position: relative;
+  overflow: hidden;
+}
+body .box .wheel div {
+  width: 39%;
+  height: 50%;
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+          clip-path: polygon(50% 100%, 0 0, 100% 0);
+  position: absolute;
+  transform-origin: bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 30%;
+}
+body .box .wheel div p {
+  font-size: 20px;
+  font-weight: bold;
+  transform: rotate(90deg);
+}
+body .box .wheel .gift1 {
+  background-color: rgb(37, 87, 12);
+  color: white;
+  transform: rotate(0deg);
+}
+body .box .wheel .gift2 {
+  background-color: white;
+  color: red;
+  transform: rotate(40deg);
+}
+body .box .wheel .gift3 {
+  background-color: red;
+  color: rgb(37, 87, 12);
+  transform: rotate(80deg);
+}
+body .box .wheel .gift4 {
+  background-color: rgb(37, 87, 12);
+  color: white;
+  transform: rotate(120deg);
+}
+body .box .wheel .gift5 {
+  background-color: white;
+  color: red;
+  transform: rotate(160deg);
+}
+body .box .wheel .gift6 {
+  background-color: red;
+  color: rgb(37, 87, 12);
+  transform: rotate(200deg);
+}
+body .box .wheel .gift7 {
+  background-color: rgb(37, 87, 12);
+  color: white;
+  transform: rotate(240deg);
+}
+body .box .wheel .gift8 {
+  background-color: white;
+  color: red;
+  transform: rotate(280deg);
+}
+body .box .wheel .gift9 {
+  background-color: red;
+  color: rgb(37, 87, 12);
+  transform: rotate(320deg);
+}/*# sourceMappingURL=style.css.map */
